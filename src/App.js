@@ -109,6 +109,6 @@ const moviesList = [
   },
 ]
 
-const App = () => <PrimeVideo moviesList={moviesList} />
+const App = () => <PrimeVideo calssName="" moviesList={moviesList} />
 
 export default App

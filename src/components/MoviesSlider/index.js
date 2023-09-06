@@ -1,4 +1,5 @@
 import Slider from 'react-slick'
+import MovieItem from '../MovieItem'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -10,24 +11,15 @@ const MoviesSlider = ({details}) => {
 
   const settings = {
     dots: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
   }
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
+        {details.map(each => (
+          <MovieItem key={each.id} details={each} />
+        ))}
       </Slider>
     </div>
   )
