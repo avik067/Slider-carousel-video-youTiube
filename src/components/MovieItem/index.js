@@ -5,7 +5,7 @@ const MovieItem = ({details}) => {
 
   return (
     <div>
-      <img src={thumbnailUrl} alt="" />
+      <img className="each-card" src={thumbnailUrl} alt="" />
     </div>
   )
 }

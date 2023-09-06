@@ -22,7 +22,6 @@ const PrimeVideo = ({moviesList}) => {
       <div className="content-container">
         <h1 className="category-name">Action Movies</h1>
         <MoviesSlider details={onlyAction()} />
-
         <h1 className="category-name">Comedy Movies</h1>
         <MoviesSlider details={onlyComedy()} />
       </div>
