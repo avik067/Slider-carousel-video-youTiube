@@ -15,9 +15,9 @@ const MovieItem = ({details}) => {
     <Popup
       modal="true"
       trigger={
-        <button className="trigger-button" type="button">
-          <img src={thumbnailUrl} alt="" />
-        </button>
+        <div className="trigger-button">
+          <img src={thumbnailUrl} alt="thumbnail" />
+        </div>
       }
     >
       {close => (
@@ -25,6 +25,7 @@ const MovieItem = ({details}) => {
           <div className="close-container">
             <div>
               <button
+                data-testid="closeButton"
                 type="button"
                 className="trigger-button"
                 onClick={() => close()}

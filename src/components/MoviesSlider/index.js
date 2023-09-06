@@ -11,7 +11,7 @@ const MoviesSlider = ({details}) => {
 
   const settings = {
     dots: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     centerMode: true,
   }
