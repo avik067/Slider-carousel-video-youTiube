@@ -1,0 +1,16 @@
+.main {
+  height: 100vh;
+  background-color: #000000;
+}
+
+.banner-img {
+  height: 200px;
+  width: 100%;
+}
+
+.category-name {
+  font-size: 15px;
+  color: #ffffff;
+}
+.content-container {
+}
