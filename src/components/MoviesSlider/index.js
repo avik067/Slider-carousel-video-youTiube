@@ -10,9 +10,9 @@ const MoviesSlider = ({details}) => {
   console.log(details)
 
   const settings = {
-    dots: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
+    dots: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     centerMode: true,
   }
   return (
