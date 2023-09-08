@@ -1,10 +1,10 @@
 .trigger-button {
-  width: 15%;
-  margin: 10px;
+  width: 50px;
+  margin: 20px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 200;
   font-family: 'Roboto';
-  color: white;
+
   padding: 8px 15px 8px 15px;
   margin: 8px;
   background-color: transparent;
@@ -12,6 +12,10 @@
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+}
+
+.thumb-img {
+  width: 40px;
 }
 
 .close-container {
@@ -30,7 +34,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
+
   background: rgba(255, 255, 255, 0.5);
   width: 80%;
   height: 80%;
@@ -39,4 +43,15 @@
 
 .player-container {
   max-width: 80%;
+}
+
+@media screen and (width <= 600px) {
+  .popup-content {
+    width: 90%;
+    height: 60%;
+  }
+  .player-container {
+    max-width: 90%;
+    max-height: 80%;
+  }
 }

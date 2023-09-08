@@ -16,7 +16,7 @@ const MovieItem = ({details}) => {
       modal="true"
       trigger={
         <div className="trigger-button">
-          <img src={thumbnailUrl} alt="thumbnail" />
+          <img className="thumb-img" src={thumbnailUrl} alt="thumbnail" />
         </div>
       }
     >
