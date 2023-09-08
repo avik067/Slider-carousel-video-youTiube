@@ -15,7 +15,7 @@
 }
 
 .thumb-img {
-  width: 40px;
+  width: 200px;
 }
 
 .close-container {
@@ -37,21 +37,20 @@
 
   background: rgba(255, 255, 255, 0.5);
   width: 80%;
-  height: 80%;
+  height: 500px;
   padding: 5px;
 }
 
 .player-container {
-  max-width: 80%;
+  max-width: 90%;
 }
 
 @media screen and (width <= 600px) {
   .popup-content {
     width: 90%;
-    height: 60%;
   }
   .player-container {
-    max-width: 90%;
+    max-width: 80%;
     max-height: 80%;
   }
 }
